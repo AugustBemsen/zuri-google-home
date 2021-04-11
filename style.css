@@ -1,0 +1,164 @@
+/* Boiler Plate */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* 
+ Nav Bar
+
+*/
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	width: 13.75rem;
+	max-width: 90%;
+	padding: 1rem;
+	margin-left: auto;
+}
+
+nav li a {
+	color: #000;
+	text-decoration: none;
+	font-size: 0.78rem;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+	text-decoration-color: #000;
+}
+
+nav .avatar {
+	/* width: 20px;
+	height: 20px; */
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+/* 
+	Main Section Style
+
+*/
+
+
+center {
+	width: 37.5rem;
+	max-width: 90%;
+	margin: auto;
+	margin-top: 3.45rem;
+
+}
+
+center .logo {
+	margin-bottom: 2rem;
+}
+
+center .search-bar {
+	margin: auto;
+	padding: 0.625rem;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background: #fff;
+	border: 1px solid #E0E0E0;
+	border-radius: 6.25rem;
+	align-items: center;
+}
+
+center .search-bar input {
+	width: 100%;
+	border: none;
+	outline: none
+}
+
+center .buttons {
+	display: flex;
+	align-items: center;
+	margin-top: 2rem;
+	justify-content: center;
+}
+
+center .buttons div {
+	background: #f8f9fa;
+	padding: 0.625rem;
+	color: #3c4043;
+	font-size: 1rem;
+	border-radius: 3px;
+	margin: 0 6px;
+	cursor: pointer;
+}
+
+center .language {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2rem
+}
+
+center .language span {
+	font-size: 0.78rem;
+
+}
+
+center .language a {
+	margin: 0 7px;
+	font-size: 0.78rem;
+	text-decoration: none;
+	color: #1a0dab
+}
+
+center .language a:hover {
+	text-decoration: underline;
+	text-decoration-color: #1a0dab;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+footer .country {
+	color: rgba(0, 0, 0, .54);
+	background: #F2F2F2;
+	padding: 1rem 2rem;
+	font-size: 0.8rem;
+	border-bottom: 1px solid #dadce0
+}
+
+footer .other {
+	color: rgba(0, 0, 0, .54);
+	background: #F2F2F2;
+	padding: 1rem 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+footer .other .side {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer .other .side a {
+	text-decoration: none;
+	color: rgba(0, 0, 0, .54);
+	margin: 0 1rem;
+	font-size: 0.8rem;
+}
+
+footer .other .side a:nth-child(1) {
+	margin: 0;
+}
+
+@media screen and(max-width: 740px) {
+	center {
+		width: 90%
+	}
+}
